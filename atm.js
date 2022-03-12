@@ -11,16 +11,20 @@ function getBalance() {
 
 
 function getWithdraw() {
- 
+    let withdrawl = parseInt(prompt("Enter the amount you would like to withdraw? $"));
+    if(withdrawl > 0) {
+        accountBalance = accountBalance - withdrawl;
+            console.log(`Transaction successful. Current balance $${accountBalance}`);
+    }
 
 }
 
 
 function getDeposit() {
-    let deposit = prompt("Enter the amount you would like to deposit? ");
+    let deposit = parseInt(prompt("Enter the amount you would like to deposit? $"));
     if(deposit > 0) {
         accountBalance = accountBalance + deposit;
-            console.log(`Transaction successful. Current balance ${accountBalance}`);
+            console.log(`Transaction successful. Current balance $${accountBalance}`);
     }
 
 }

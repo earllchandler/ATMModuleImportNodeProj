@@ -38,7 +38,7 @@ function mainMenu() {
       break;
 
     case '3':
-      //withdraw();
+      withdraw();
       mainMenu();
       break;
 
