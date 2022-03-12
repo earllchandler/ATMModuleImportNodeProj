@@ -1,6 +1,6 @@
 "use strict";
 
- const accountBalance = 0;
+ let accountBalance = 1100;
  const pinNumber = 1215;
 
 
