@@ -1,12 +1,10 @@
 "use strict";
 
-accountBalance = "";
+ const accountBalance = 0;
+ const pinNumber = 1215;
 
-const bankInfo = [
-{
- "accountNumber": 2813308004, 
- "pinNumber": 1215
 
-}
 
-];
+module.exports.pinNumber = pinNumber;
+
+module.exports.accountBalance = accountBalance;
